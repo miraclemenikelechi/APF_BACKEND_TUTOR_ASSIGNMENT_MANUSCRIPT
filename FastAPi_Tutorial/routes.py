@@ -1,6 +1,6 @@
 from fastapi import APIRouter, JSONResponse
-from models import Booking
-from services import process_booking
+from FastAPi_Tutorial.models import Booking
+from FastAPi_Tutorial.services import process_booking
 booking_router = APIRouter(prefix="/booking", tags=["users"])
 
 
